@@ -9,3 +9,8 @@ This project was made with Compose, so it's necessary to run: ```composer instal
 ## Starting the server
 
 Run: ```php -S localhost:8000``` to run the application.
+
+## Creating database
+
+Doctrine was used as ORM for this project. Run this command to create a local database: ```vendor/bin/doctrine orm:schema-tool:update --force```
+
